@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slowsiah - Google</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: arial, sans-serif;
+            font-size: 16px;
+        }
+        #appsbutton {
+            width: 25px;
+            height: 25px;
+        }
+        #barcontainer {
+            height: 10vh;
+            display: flex;
+            flex-direction:row;
+            justify-content: space-between;
+        }
+        #searchcontainer {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto auto auto auto;
+            flex-wrap: wrap;
+
+        }
+        #searchbox {
+            flex-grow: 1;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+<div id="barcontainer">
+    <div id="tlbar" class="tbar">
+        <a href="#">About</a>
+        <a href="#">Store</a>
+    </div>
+
+
+    <div id="trbar" class="tbar">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <a href="#"><img id="appsbutton" src="download.png" size></a>
+        <a href="#"><button id="signin">Sign In</button></a>
+    </div>
+</div>
+        <div id="searchcontainer">
+            <img src="google-logo.png">
+            <form>
+                <input id="searchbox" type="text" name="search"required>
+                <button class="searchbuttons" id="sb" type="submit">Google Search</button>
+                <button class="searchbutotns" id="ifl" type="submit">I'm Feeling Lucky</button>
+            </form>
+        </div>
+        <div id="blbar" class="bottombar">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+        </div>
+    <footer>
+        <div id="brbar" class="bottombar">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </footer>
+    
+</body>
+</html>
