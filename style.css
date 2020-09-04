@@ -1,0 +1,41 @@
+header {
+    position: absolute;
+    top: 0
+    border: ;
+    width: 100%;
+    font: 13px arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+img#apps {
+    width: 17px;
+    height: 17px;
+    margin: 15px 15px 0px 10px;
+    opacity: .5;
+}
+img#apps:hover {
+    opacity: 1;
+}
+#signin {
+    margin-top: 10px
+    margin-right: 50px;
+    padding: 7px 10px 7px 10px;
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    foont-size: 13px;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #5f6369;
+}
