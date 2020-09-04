@@ -1,7 +1,7 @@
 header {
     position: absolute;
     top: 0;
-    border: ;
+    border: 0;
     width: 100%;
     font: 13px arial, sans-serif;
 }
@@ -24,13 +24,13 @@ img#apps:hover {
     opacity: 1;
 }
 #signin {
-    margin-top: 10px
+    margin-top: 10px;
     margin-right: 50px;
     padding: 7px 10px 7px 10px;
     background-color: #4285f4;
     color: white;
     font-weight: bold;
-    foont-size: 13px;
+    font-size: 13px;
 }
 li a {
     display: block;
@@ -62,7 +62,7 @@ form {
     margin: auto;
     margin-bottom: 10px;
     padding: 0px 0px;
-    border 1px rgb(210 210 210) solid;
+    border: 1px rgb(210 210 210) solid;
     border-radius: 30px 30px 30px 30px;
 }
 #fullsearchbar:hover {
